@@ -2,7 +2,7 @@ import { IncomingHttpHeaders } from 'http';
 import { Roles } from 'src/shared/enums/role.enum';
 
 export type ValidatedUser = {
-  id: string;
+  id: number;
   role: Roles;
   email: string;
 };
